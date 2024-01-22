@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+.app-container {
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-title {
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+    display: flex;
+    padding: 10px auto 0 auto;
+    gap: 10px;
+    height: 80px;
+    background-color: rgb(190, 233, 233);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+    font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+    font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub-title {
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 200px;
+    height: 20px;
+}
+
+.sub-content {
+    border-radius: 5px;
+    margin-right: 25px;
+    width: 200px;
+    height: 20px;
+}
+
+.sub-button {
+    border-radius: 25px;
+    font-size: medium;
+    width: 90px;
+    height: 30px;
+}
+
+.working-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.working-card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.working-delete {
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+.working-complete {
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+.working-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.done-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.done-card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.done-delete {
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+.done-cancle {
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+.done-btn {
+    display: flex;
+    justify-content: center;
 }
